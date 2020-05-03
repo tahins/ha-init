@@ -2,23 +2,25 @@
   "name": "ha-init",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html --public-url ./",
+    "build": "parcel build index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Tahin Rahman",
   "license": "MIT",
   "dependencies": {
-    "hyperapp": "^2.0.4"
+    "hyperapp": "^2.0.4",
+    "public": "^0.1.5"
   },
   "devDependencies": {
-    "babel-core": "^6.26.3",
-    "babel-plugin-transform-object-rest-spread": "^6.26.0",
-    "babel-plugin-transform-react-jsx": "^6.24.1",
-    "babel-preset-env": "^1.7.0",
-    "parcel-bundler": "^1.12.4",
+    "@babel/core": "^7.9.6",
+    "@babel/plugin-proposal-object-rest-spread": "^7.9.6",
+    "@babel/plugin-transform-react-jsx": "^7.9.4",
+    "@babel/preset-env": "^7.9.6",
+    "ncp": "^2.0.0",
+    "parcel": "^2.0.0-alpha.3.2",
     "sass": "^1.26.5"
   }
 }
